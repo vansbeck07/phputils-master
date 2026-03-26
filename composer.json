@@ -1,0 +1,28 @@
+{
+  "name": "vansbeck07/phputils",
+  "type": "library",
+  "description": "PHP Utilities classes",
+  "keywords": ["php", "utils"],
+  "homepage": "https://github.com/vansbeck07/phputils",
+  "license": "MIT",
+  "authors": [{
+    "name": "Evans Owusu Ofori",
+    "email": "vansbeck07@gmail.com",
+    "role": "Developer",
+    "homepage": "https://github.com/vansbeck07"
+  }],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.3"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Vansbeck07\\Utils\\": "src/"
+    }
+  }
+}
